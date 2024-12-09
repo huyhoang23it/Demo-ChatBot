@@ -1,3 +1,24 @@
 ﻿@page "/"
 
 <PageTitle>ChatBot</PageTitle>
+<div class="container">
+    <div class="row">
+        <div class="col-4">
+        </div>
+        <div class="col-4">
+            <div class="messages">
+                <div class="response"></div>
+                <div class="question"></div>
+            </div>
+            <div class="textMessages"></div>
+        </div>
+        <div class="col-4">
+        </div>
+    </div>
+</div>
+@code{
+    protected override async Task OnInitializedAsync()
+    {
+        
+    }
+}

@@ -62,3 +62,14 @@ a, .btn-link {
     .blazor-error-boundary::after {
         content: "An error has occurred."
     }
+    .messages{
+        height: 800px;
+        border: 1px solid black;
+        width: 100%;
+    }
+    .response{
+
+    }
+    .question{
+
+    }
